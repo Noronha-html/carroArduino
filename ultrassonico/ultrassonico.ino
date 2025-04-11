@@ -23,13 +23,13 @@ void loop() {
   // Calcula a distância em cm
   float distancia = duracao * 0.034 / 2;
 
-  if(distancia > 0 && distancia < 500)
+  if(distancia > 0 && distancia < 100)
   {
-    digitalWrite(buzzer, HIGH);
+    tone(buzzer, 300);
   }
   else
   {
-    digitalWrite(buzzer, LOW);
+    noTone(buzzer);
   }
 
   // Mostra no Serial Monitor
