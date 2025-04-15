@@ -49,8 +49,8 @@ void driveAndtSop() {
     digitalWrite(wheel1, LOW);
     digitalWrite(wheel2, HIGH);
 
-    digitalWrite(wheel3, HIGH);
-    digitalWrite(wheel4, LOW);
+    digitalWrite(wheel3, LOW);
+    digitalWrite(wheel4, HIGH);
   }
 
   delay(100);
